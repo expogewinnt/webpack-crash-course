@@ -1,13 +1,8 @@
 import _ from 'lodash';
-// import { Nijou, NAME } from './utilities'
-// import * as utilities from './utilities'
-// import { NAME as NAME_OF_HAM} from './utilities'
-import Lion from './utilities'
+import './style.css';
+// import style from './style.css';
 
-// console.log(utilities.Nijou(10));
-// console.log(utilities.NAME);
-// console.log(NAME_OF_HAM);
-console.log(Lion.say());
+// console.log(style.toString());
 
 function component() {
     const element = document.createElement('div');
@@ -17,3 +12,4 @@ function component() {
 }
 
 document.body.appendChild(component());
+document.body.classList.add('haikei');
